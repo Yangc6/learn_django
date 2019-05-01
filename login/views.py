@@ -23,9 +23,9 @@ def make_confirm_string(user):
 def send_email(email, code):
     from django.core.mail import EmailMultiAlternatives
 
-    subject = '来自www.liujiangblog.com的注册确认邮件'
+    subject = '来自www.xxxx.com的注册确认邮件'
 
-    text_content = '''感谢注册www.liujiangblog.com，这里是刘江的博客和教程站点，专注于Python和Django技术的分享！\
+    text_content   =   '''感谢注册www.xxxx.com，这里是xx的博客和教程站点，专注于Python和Django技术的分享xxxx
                     如果你看到这条消息，说明你的邮箱服务器不提供HTML链接功能，请联系管理员！'''
 
     html_content = '''
